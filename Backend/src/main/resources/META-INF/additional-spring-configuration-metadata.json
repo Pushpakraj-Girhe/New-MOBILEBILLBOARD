@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.mvc.cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mvc.cors.allowed-origins'"
+  },
+  {
+    "name": "spring.mvc.cors.allowed-methods",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mvc.cors.allowed-methods'"
+  },
+  {
+    "name": "here.maps.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'here.maps.api.key'"
+  }
+]}
