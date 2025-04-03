@@ -147,7 +147,7 @@ const RoiCalculator = ({ formData, initialState = "expanded" }) => {
 
           {roiData && (
             <div className="space-y-6 animate-fade-in">
-              {/* ROI Summary Card */}
+              {/* ROI Summary Card }
               <div className="bg-gradient-to-br from-green-50 to-blue-50 p-4 rounded-lg border border-green-100">
                 <div className="flex justify-between items-center mb-4">
                   <h4 className="font-semibold text-primary flex items-center">
@@ -189,7 +189,7 @@ const RoiCalculator = ({ formData, initialState = "expanded" }) => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
               
               {/* Campaign Performance Metrics */}
               <div>
@@ -217,7 +217,7 @@ const RoiCalculator = ({ formData, initialState = "expanded" }) => {
               </div>
               
               {/* Contributing Factors */}
-              {roiData.roiBreakdown?.contributingFactors && (
+              {/*roiData.roiBreakdown?.contributingFactors && (
                 <div>
                   <h4 className="font-semibold text-gray-700 mb-3 flex items-center">
                     <PieChart className="h-4 w-4 mr-2" />
@@ -244,7 +244,7 @@ const RoiCalculator = ({ formData, initialState = "expanded" }) => {
                     </div>
                   </div>
                 </div>
-              )}
+              )}*/}
               
               {/* Actions */}
               <div className="flex justify-between mt-6">

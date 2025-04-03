@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import './index.css';
 import CampaignResults from './Pages/CampaignResults';
+import BookingPage from './Pages/booking-page';
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/plan" element={<Plan />} />
             <Route path="/campaign-results" element={<CampaignResults />} />
+            <Route path="/booking" element={<BookingPage />} />
           </Routes>
         </main>
         <Footer />
@@ -24,3 +26,5 @@ function App() {
 }
 
 export default App;
+
+

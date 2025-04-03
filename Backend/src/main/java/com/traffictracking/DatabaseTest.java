@@ -12,7 +12,7 @@ public class DatabaseTest {
         
         String url = "jdbc:mysql://localhost:3306/mydata?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true";
         String user = "root";
-        String password = "Pushpakraj@8080";
+        String password = "Mysql@4531";
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

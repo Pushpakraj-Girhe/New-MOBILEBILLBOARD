@@ -25,12 +25,7 @@ export default function Navbar() {
             <Link to="/plan" className="text-primary-foreground hover:text-primary-foreground/80 font-medium">
               Plan Your Route
             </Link>
-            <Link to="#" className="text-primary-foreground hover:text-primary-foreground/80 font-medium">
-              About Us
-            </Link>
-            <Link to="#" className="text-primary-foreground hover:text-primary-foreground/80 font-medium">
-              Case Studies
-            </Link>
+
             <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90">Get Started</Button>
           </div>
 

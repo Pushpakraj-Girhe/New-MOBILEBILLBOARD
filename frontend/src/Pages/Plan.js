@@ -443,15 +443,7 @@ export default function PlanPage() {
                             Back
                           </Button>
                           <div className="flex gap-4">
-                            <Button
-                              type="button"
-                              variant="outline"
-                              className="bg-primary/20 text-primary hover:bg-primary/30"
-                              onClick={handlePreviewAnalytics}
-                            >
-                              <Target className="mr-2 h-4 w-4" />
-                              Preview AI Analytics
-                            </Button>
+
                             <Button type="submit" disabled={isSubmitting}>
                               {isSubmitting ? (
                                 <>

@@ -3,7 +3,8 @@ import { Calendar, Check, Clock, DollarSign, Lightbulb, MapPin, PieChart, RouteI
 import { useEffect, useState } from "react"
 import { Card } from "../components/ui/card"
 import { Tabs } from "../components/ui/tabs"
-
+import {Button} from "../components/ui/button"
+import {Link ,useNavigate} from "react-router-dom"
 // Import the components we'll create next
 import BudgetBreakdown from "../components/BudgetBreakdown"
 import CampaignMap from "../components/CampaignMap"
@@ -1843,9 +1844,11 @@ Our AI model has identified these optimal time windows for maximum impact:
       {campaignData.aiPredictions && (
         <RoiAnalysisSection campaignData={campaignData} />
       )}
+      <br/>
 
       {/* Debug Panel to inspect the API response */}
-      <DebugPanel data={campaignData} />
+      <Link to = "/booking"><Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90">Book Now</Button></Link>
+
     </div>
   )
 }

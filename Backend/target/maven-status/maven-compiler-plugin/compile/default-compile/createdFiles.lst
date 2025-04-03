@@ -3,6 +3,7 @@ com\traffictracking\model\Campaign.class
 com\traffictracking\service\AnalyticsService.class
 com\traffictracking\config\GoogleMapsConfig.class
 com\traffictracking\model\dto\RouteOptimizationRequest.class
+com\traffictracking\controller\RoiController.class
 com\traffictracking\controller\AnalyticsController.class
 com\traffictracking\controller\CampaignController.class
 com\traffictracking\TrafficTrackingApplication.class
@@ -10,7 +11,9 @@ com\traffictracking\model\AnalyticsReport.class
 com\traffictracking\model\dto\AnalyticsResponse.class
 com\traffictracking\DatabaseTest.class
 com\traffictracking\util\CoordinateUtil.class
+com\traffictracking\controller\RoiController$RoiRequest.class
 com\traffictracking\repository\AdvertisementRepository.class
+com\traffictracking\service\AiPredictionService.class
 com\traffictracking\controller\RouteController.class
 com\traffictracking\service\RouteOptimizationService.class
 com\traffictracking\model\Route.class
@@ -19,6 +22,7 @@ com\traffictracking\service\TrafficService.class
 com\traffictracking\controller\ChatController.class
 com\traffictracking\exception\ErrorDetails.class
 com\traffictracking\util\GeoUtils.class
+com\traffictracking\controller\AiAnalyticsController.class
 com\traffictracking\exception\GlobalExceptionHandler.class
 com\traffictracking\controller\TrafficController.class
 com\traffictracking\model\Advertisement.class
